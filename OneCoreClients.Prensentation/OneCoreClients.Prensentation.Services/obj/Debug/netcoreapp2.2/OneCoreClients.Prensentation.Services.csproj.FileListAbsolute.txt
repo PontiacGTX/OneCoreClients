@@ -1,0 +1,15 @@
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.deps.json
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.dll
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.pdb
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Data.dll
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Shared.dll
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Data.pdb
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\bin\Debug\netcoreapp2.2\OneCoreClients.Shared.pdb
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.csproj.AssemblyReference.cache
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.AssemblyInfoInputs.cache
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.AssemblyInfo.cs
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.csproj.CoreCompileInputs.cache
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.csproj.CopyComplete
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.dll
+C:\Users\crisb\source\repos\OneCoreClients\OneCoreClients.Prensentation\OneCoreClients.Prensentation.Services\obj\Debug\netcoreapp2.2\OneCoreClients.Prensentation.Services.pdb

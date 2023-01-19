@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OneCoreClients.Shared</id>
+    <version>1.0.0</version>
+    <authors>OneCoreClients.Shared</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\crisb\source\repos\OneCoreClients.API\OneCoreClients.Shared\bin\Debug\netcoreapp2.2\OneCoreClients.Shared.runtimeconfig.json" target="lib\netcoreapp2.2\OneCoreClients.Shared.runtimeconfig.json" />
+    <file src="C:\Users\crisb\source\repos\OneCoreClients.API\OneCoreClients.Shared\bin\Debug\netcoreapp2.2\OneCoreClients.Shared.dll" target="lib\netcoreapp2.2\OneCoreClients.Shared.dll" />
+  </files>
+</package>

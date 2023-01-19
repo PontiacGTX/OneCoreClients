@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Services\\OneCoreClients.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\OneCoreClients.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\OneCoreClients.DataAccess.csproj",
+        "projectName": "OneCoreClients.DataAccess",
+        "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\OneCoreClients.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\crisb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\OneCoreClients.Data.csproj": {
+                "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\OneCoreClients.Data.csproj"
+              },
+              "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\OneCoreClients.Shared.csproj": {
+                "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\OneCoreClients.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\OneCoreClients.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\OneCoreClients.Data.csproj",
+        "projectName": "OneCoreClients.Data",
+        "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\OneCoreClients.Data.csproj",
+        "packagesPath": "C:\\Users\\crisb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Services\\OneCoreClients.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Services\\OneCoreClients.Services.csproj",
+        "projectName": "OneCoreClients.Services",
+        "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Services\\OneCoreClients.Services.csproj",
+        "packagesPath": "C:\\Users\\crisb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\OneCoreClients.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.DataAccess\\OneCoreClients.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\OneCoreClients.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\OneCoreClients.Shared.csproj",
+        "projectName": "OneCoreClients.Shared",
+        "projectPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\OneCoreClients.Shared.csproj",
+        "packagesPath": "C:\\Users\\crisb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crisb\\source\\repos\\OneCoreClients\\OneCoreClients.API\\OneCoreClients.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\crisb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
