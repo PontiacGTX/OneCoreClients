@@ -47,16 +47,19 @@ namespace OneCoreClients.Prensentation.Controllers
                 try
                 {
                     httpMessage = await _clientServices.Add(client);
-                    if (httpMessage.StatusCode != 200 && httpMessage?.Validation != null)
+                    if (httpMessage.StatusCode != 200)
                     {
-                        TempData["Validation"] = httpMessage.Validation.ToList();
-                        
+                        if (httpMessage?.Validation != null)
+                        {
+                            TempData["Validation"] = httpMessage.Validation.ToList();
+
+                        }
+                        else if (httpMessage?.Validation == null)
+                        {
+                            TempData["Validation"] = new List<string>() { "Ocurrio un error inesperado en el servidor" };
+                        }
+                        return View(client);
                     }
-                    else if(httpMessage.StatusCode != 200 && httpMessage?.Validation == null)
-                    {
-                        TempData["Validation"] = new List<string>() { "Ocurrio un error inesperado en el servidor" };
-                    }
-                    return View(client);
                 }
                 catch (Exception ex)
                 {
