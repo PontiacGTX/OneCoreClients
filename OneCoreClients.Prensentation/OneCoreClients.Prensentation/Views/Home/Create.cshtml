@@ -1,0 +1,75 @@
+﻿@model OneCoreClients.Data.Entity.Client
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Client</h4>
+<hr />
+
+@if (TempData["Validation"] != null)
+{
+    <ul>
+        @{List<string> validation = TempData["Validation"] as List<string>;
+            for (int i = 0;i< validation.Count; i++)
+            {
+                <li style="color:red">@validation[i]</li>
+            }
+        }
+    </ul>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div style="display:none;" class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input style="display:none;" asp-for="Id" class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RFC" class="control-label"></label>
+                <input asp-for="RFC" class="form-control" />
+                <span asp-validation-for="RFC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CP" class="control-label"></label>
+                <input asp-for="CP" class="form-control" />
+                <span asp-validation-for="CP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Direccion" class="control-label"></label>
+                <input asp-for="Direccion" class="form-control" />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Habilitado" /> @Html.DisplayNameFor(model => model.Habilitado)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

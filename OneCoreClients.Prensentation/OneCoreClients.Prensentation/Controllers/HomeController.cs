@@ -3,6 +3,7 @@ using OneCoreClients.Data.Entity;
 using OneCoreClients.Prensentation.Models;
 using OneCoreClients.Prensentation.Services;
 using OneCoreClients.Shared.Helpers;
+using OneCoreClients.Shared.Responses;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -28,6 +29,44 @@ namespace OneCoreClients.Prensentation.Controllers
             var res = await _clientServices.GetAll();
             var clients = res.Data.CastJsonAs<List<Client>>();
             return View(clients);
+        }
+
+        [HttpGet("Create")]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
+
+        [HttpPost("Create")]
+        public async Task<IActionResult> Create([FromForm] Client client)
+        {
+            try
+            {
+                Client result = null;
+                HttpResponse httpMessage = null;
+                try
+                {
+                    httpMessage = await _clientServices.Add(client);
+                    if (httpMessage.StatusCode != 200 && httpMessage?.Validation != null)
+                    {
+                        TempData["Validation"] = httpMessage.Validation.ToList();
+                        
+                    }
+                    else
+                    {
+                        TempData["Validation"] = new List<string>() { "Ocurrio un error inesperado en el servidor" };
+                    }
+                    return View(client);
+                }
+                catch (Exception ex)
+                {
+                }
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                return Error();
+            }
         }
         [HttpGet("Data")]
         public async Task<IActionResult> Data()
