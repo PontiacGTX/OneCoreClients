@@ -52,7 +52,7 @@ namespace OneCoreClients.Prensentation.Controllers
                         TempData["Validation"] = httpMessage.Validation.ToList();
                         
                     }
-                    else
+                    else if(httpMessage.StatusCode != 200 && httpMessage?.Validation == null)
                     {
                         TempData["Validation"] = new List<string>() { "Ocurrio un error inesperado en el servidor" };
                     }
